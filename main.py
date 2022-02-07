@@ -55,7 +55,7 @@ def program():
             if (option=="1"):
                 delay_print(f"{Fore.YELLOW}Are you sure to ban "+realnumber+"?\n")
                 yesorno1 = input("(Y/N): ")
-                delay_print("Banning of "+realname+" is successfull!")
+                delay_print("Banning of "+realnumber+" is successfull!")
                 data.lockout()
 
             elif (option=="2"):
